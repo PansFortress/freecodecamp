@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+  <div class="search-container">
+  <div class="row">
+    <div class="col-12 col-md-auto">
+      <form class="form-inline" id="search-form">
+        <label class="sr-only" for="search-query">Search Query</label>
+        <input class="text form-control mr-sm-2 mt-xs-2" id="search-query" name="search-query" placeholder="Search Wikipedia">
+        <button type="submit" class="btn btn-primary mr-sm-2">Search</button>
+        <div class="btn btn-secondary mt-xs-2">
+          <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+            Random
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="results-container" id="results">
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
