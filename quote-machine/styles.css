@@ -1,0 +1,15 @@
+.container{
+  margin-top: 2%;
+}
+.btn:hover{
+  background-color: gray;
+  cursor: pointer;
+}
+
+html{
+  background-color: gray;
+}
+
+body{
+  background-color: transparent;
+}
